@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Video Preview</title>
 </head>
 <body>
     <div class="main">
-        <video src="/city.mp4" class="city" controls onmouseover="over(this)" onmouseout="out(this)"></video>
-     
+        <video src="/city.mp4" loop class="city" onmouseover="over()" onmouseout="out()"></video>
+        <div class="controls">
+            <h3 onclick="rw2()"><</h3>
+            <h3 onclick="over()">Play</h3>
+            <h3 onclick="out()">Pause</h3>
+            <h3 onclick="fastVid()">FF</h3>  
+            <h3 onclick="fw2()">></h3>    
+        </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>

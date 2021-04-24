@@ -5,5 +5,16 @@
 }
 .main {
     margin: 0px auto;
-    width: 406px;
+    width: 400px;
+}
+.controls {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    border: 3px solid cadetblue;
+    border-top: none;
+    background-color: blue;
+}
+h3 {
+    margin: 5px;
 }
