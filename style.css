@@ -1,0 +1,9 @@
+.city {
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+}
+.main {
+    margin: 0px auto;
+    width: 406px;
+}
